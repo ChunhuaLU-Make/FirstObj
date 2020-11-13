@@ -20,5 +20,8 @@ void LED_Init()
 	GPIO_SetBits(LED_PORT,LED_PIN);   //将LED端口拉高，熄灭所有LED
 }
 
-
+void function()
+{
+	pirntf("hello wrold\r\n");
+}
 
