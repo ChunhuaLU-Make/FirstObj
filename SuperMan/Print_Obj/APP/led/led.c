@@ -22,6 +22,6 @@ void LED_Init()
 
 void function()
 {
-	pirntf("hello wrold\r\n");
+	
 }
 
