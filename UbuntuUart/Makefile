@@ -12,6 +12,5 @@ main.o: main.c
 .PHONY:
 GdbTest:
 	gcc -g UartDrive.c main.c -o GdbTest
-
 clean:
-	rm -f Uar
+	rm -f Uart

@@ -25,6 +25,7 @@ int main()
 	
 	while(1)
 	{
+		#if 0
 		i++;
 		if(i%20==0)
 		{
@@ -38,6 +39,8 @@ int main()
 			printf("Êä³ö×Ö·û´®str=%s\r\n",str);
 
 		}
+		#endif
+		
 		delay_ms(1000);
 	}
 }
